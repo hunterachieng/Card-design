@@ -1,0 +1,125 @@
+@import url("https://fonts.google.com/specimen/Inter");
+body{
+    background-color:  hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+#main-text{
+    color: hsla(0, 0%, 100%, 0.7);
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 30px;
+}
+span{
+    color: hsl(277, 75%, 69%);
+}
+.card{     
+  display: grid;
+  grid-template-columns: 50% 50%;
+ margin: 10% 12%;
+ height: 330px;
+ width: 70%;
+ background-color: hsl(244, 38%, 16%);
+ border-radius: 10px;
+    }
+@media (max-width:700px){
+    .body{
+        text-align: center;
+    }
+    .card{
+        display: flex;
+        height: 730px;
+        width: 90%;
+        margin: 20% auto;
+        margin-bottom: 20%;
+        flex-direction: column-reverse;
+
+    }
+}
+.stats{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -22%;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  
+    }
+.stats-info{
+    color: hsla(0, 0%, 100%, 0.6);
+      display: flex;
+      margin-top: -9%;
+      text-transform: uppercase;
+    }
+.stats-info #one{
+    margin-left: 0%;
+}
+.stats-info #two{
+    margin-left: 11%;
+}
+.stats-info #three{
+    margin-left:8%;
+}
+.pic{
+    background-color: hsl(244, 45%, 62%);
+    width: 100%;
+    height:330px;
+      margin-left: 10%;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+}
+
+ img{
+    width: 100%;
+    height:330px;
+    mix-blend-mode: multiply;
+      
+}
+@media (max-width:700px){
+    .pic{
+        width: 100%;
+        margin-left: 0%;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .stats{
+        display: flex;
+        flex-direction: column;
+        margin-top: -10%;
+        text-align: center;       
+        font-weight: 400;
+        
+          }
+  .stats-info{
+       color: hsla(0, 0%, 100%, 0.6);
+       display: flex;
+       flex-direction: column;
+       /* margin-top: -50%; */
+      text-transform: uppercase;
+            }    
+  .stats-info #one{
+        margin-left: 25%;
+        margin-top: -40%;
+            }
+   .stats-info #two{
+        margin-left: 25%;
+        
+            }
+   .stats-info #three{
+        margin-left:26%;
+            }  
+}
+
+.text{
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: left;
+}
+
